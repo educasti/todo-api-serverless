@@ -1,0 +1,27 @@
+{
+  "name": "todo-api-serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "start": "node src/index.js",
+  "dev": "nodemon src/index.js",
+  "test": "jest --coverage"
+},
+"jest": {
+  "testEnvironment": "node"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@vendia/serverless-express": "^4.12.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.2.2"
+  }
+}
